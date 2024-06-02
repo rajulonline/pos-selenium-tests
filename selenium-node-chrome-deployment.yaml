@@ -43,3 +43,6 @@ spec:
             value: "60"
           - name: SE_NODE_OVERRIDE_MAX_SESSIONS
             value: "true"
+        resources:
+          limits:
+            memory: "1000Mi"
